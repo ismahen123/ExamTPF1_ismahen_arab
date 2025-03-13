@@ -1,3 +1,4 @@
+HEAD
 Data=[1,3,5]
 if Data:
     print ('la somme est :', sum(Data))
@@ -5,3 +6,10 @@ if Data:
     print ('le max est :', max(Data))
 else:
     print ('dossier vide')
+
+def somme(T):
+    S=0
+    for t in T:
+        S+=t
+    return 
+ 05b5382 (Ajout de la fonction somme dans project.py)
